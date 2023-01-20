@@ -8,10 +8,7 @@
     color: #FD6E0A;
 }
  /* Container styles */
- main{
-    max-width: 1140px;
-    margin: 0 auto;
- }
+
 .banner{
     width: 215px;
     height: 800px;
@@ -56,4 +53,55 @@
     border-radius: 5px;
     color: #FFFFFF;
 }
+/* main section */
 
+main{
+    max-width: 1140px;
+    height: auto;
+}
+/* Circle section styles  */
+.Group{
+    position:absolute;
+    margin-top: 80px;
+    background: #1E1E1E;
+    border-radius: 10px;
+    padding: 130px 150px;
+    left: 110px;
+    right: 80px;
+}
+.Group > img{
+    position: absolute;
+    width:200px;
+    height:60px ;
+    left:40px;
+    top:20px;
+    right: 120;
+    background: #F15B22;
+}
+
+
+.Group > text{
+    position: absolute;
+    width: 60px;
+    height:120px;
+    left: 140px;
+    top: 20px;
+    right: 0px;
+
+}
+.Group > contant{
+    position: absolute;
+    width: 60px;
+    height:120px;
+    left: 140px;
+    top: 20px;
+    right: 0px;
+}
+.Group > paragraph{
+    position: absolute;
+    width: 60px;
+    height:120px;
+    left: 140px;
+    top: 20px;
+    right: 0px;
+}
