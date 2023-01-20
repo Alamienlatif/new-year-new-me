@@ -1,0 +1,59 @@
+/*Container holding the image and the text */
+
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+ /* Container styles */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+.banner{
+    width: 215px;
+    height: 800px;
+    left: 230px;
+    top: 0px;
+    background-image: url (img src="banner/banner2.png");
+}
+.banner-title{
+    position: absolute;
+    width: 280px;
+    height: 150;
+    left: 650px;
+    top: 170px;
+    right: 210px;
+    bottom: 430px;
+    font-weight: 320px;
+    font-size: 40px;
+    line-height: 30 px;
+    text-align: right;
+    color:#151414;
+}
+.banner-description{
+    position: absolute;
+    width: 230px;
+    top: 360px;
+    left: 700px;
+    bottom: 265px;
+    right: 210px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color:#444343;
+}
+.button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    left: 810px;
+    top: 420px;
+    background:#F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
