@@ -14,7 +14,6 @@
     height: 800px;
     left: 230px;
     top: 0px;
-    background-image: url (img src="banner/banner2.png");
 }
 .banner-title{
     position: absolute;
@@ -57,51 +56,65 @@
 
 main{
     max-width: 1140px;
-    height: auto;
+    margin: 0 auto;
 }
 /* Circle section styles  */
-.Group{
-    position:absolute;
-    margin-top: 80px;
-    background: #1E1E1E;
-    border-radius: 10px;
-    padding: 130px 150px;
-    left: 110px;
-    right: 80px;
+
+.middel-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
-.Group > img{
-    position: absolute;
-    width:200px;
-    height:60px ;
-    left:40px;
-    top:20px;
-    right: 120;
+
+.all-text{
+    font-family: Work Sans;
+    font-style: Regular;
+}
+
+.img{
+    top:920px;
     background: #F15B22;
-}
-
-
-.Group > text{
-    position: absolute;
-    width: 60px;
-    height:120px;
-    left: 140px;
-    top: 20px;
-    right: 0px;
 
 }
-.Group > contant{
-    position: absolute;
-    width: 60px;
-    height:120px;
-    left: 140px;
+.text{
+    left: 20px;
     top: 20px;
-    right: 0px;
+    width: 280px;
+    font-size: 40px;
+    width: 200px;
+    height: 75px;
+    font-weight: 420px;
+    font-style: Bold;
+    line-height: 45px;
+    vertical-align: top;
+    color:#151414;
+    bottom: 430px;
+    
 }
-.Group > paragraph{
+   
+.contant{
+    left: 20px;
+    top: 135px;
+    font-size: 15px;
+    width: 320px;
+    height: 80px;
+}
+.text-paragraph{
+    left: 20px;
+    top: 260px;
+}
+.plans{
+    display: flex;
+    left: 20px;
+    text-center;
+    top: 900px;
+    bottom: 40px;
+
+}
+.btn-primary{
     position: absolute;
-    width: 60px;
-    height:120px;
-    left: 140px;
-    top: 20px;
-    right: 0px;
+    width: 8px;
+    height: 5px;
+    top: 6px;
+    left: 10px;
 }
