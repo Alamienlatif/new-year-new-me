@@ -93,8 +93,9 @@
     line-height: 25px;
     text-align: left;  
 }
+/* skill start */
 .my-plans{
-    margin-top: 130px;
+    margin-top: 120px;
     margin-left:120px;
     right: 0px;
     
@@ -109,10 +110,12 @@
 .skills-container{
     display: flex;
     gap: 24px;
+    margin-right: 220px;
     left: 320px;
     right:0px;
     top: 80px;
-    bottom: 30px;
+    bottom: 40px;
+
 }
 .skill{
     background:#FFFFFF;
@@ -130,3 +133,48 @@
 .skill-descripiton{
     color: #757575;
 }
+/* skill ends */
+
+.page-title{
+    height: 200px;
+    /* width:180px; */
+    background-image: url('../gradient2.png'); background-image: url('../watch.png');
+    margin-left: 100px;
+    margin-right: 380px;
+    margin-top: 80px;
+}
+.subpage-title{
+    /* width: 140px; */
+    margin-left: 100px;
+    margin-right: 380px;
+    margin-top: -200px;
+}
+
+#bt-button{
+     position: flex;
+    /* width: 120px;
+    height: 40px;
+    font-size: 20px;
+    left: 810px;
+    top: 420px;  */
+    background:#F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+#text-block{
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    color: white;
+    left: 60px;
+    top: 40px;
+}
+#tex{
+    top: 360px;
+    left: 180px;
+    bottom: ;
+}
+.form-fill{
+    margin-bottom: ;
+} */
