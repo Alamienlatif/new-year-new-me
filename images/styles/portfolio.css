@@ -168,5 +168,18 @@
     color: #F15B22;
 }
 .form-fill{
-    margin-bottom: ;
+    /* display: flex; */
+    width:full;
+    /* gap: 60px; */
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top:230px;
+    background-color:black;
+    color:white;
+
+
 } 
+.form-title{
+    
+}
