@@ -25,7 +25,8 @@
     font-size: 40px;
     line-height: 30 px;
     text-align: right;
-    color:#151414;
+    color:#151414; 
+
 }
 .banner-description{
     position: absolute;
@@ -135,9 +136,9 @@
 
 .page-title{
     height: 200px;
-    background-image: url('../gradient2.png'); background-image: url('../watch.png');
+    background-image: url('../gradient2.png');
+    background-image: url('../watch.png');
     margin-left: 100px;
-    margin-right: 380px;
     margin-top: 80px;
 }
 .subpage-title{
@@ -179,7 +180,7 @@
     width: 340px;
     height:700px;
     text-align: left;
-    margin-left:50px;
+    margin-left:80px;
     margin-top: 80px;
     margin-bottom:100px;
 }
